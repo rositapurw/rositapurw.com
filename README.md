@@ -1,4 +1,4 @@
-![Screenshot 2024-11-04 185512](https://github.com/user-attachments/assets/21768acb-3982-4ba5-bd88-4d7d607d5a4f)
+![alt text](image.png)
 
 
 # Hi, I'm Sita 👋 👩
