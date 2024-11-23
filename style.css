@@ -1,137 +1,137 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-body{
-    font-family: 'Josefin Sans';
-    padding: 0%;
-    margin: 0%;
+body {
+  font-family: "Josefin Sans";
+  padding: 0%;
+  margin: 0%;
 }
 
-/*ini design navigation bar*/
-nav{
-    font-size: 15pt;
-    background-color: #4A628A;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+/* navigation bar */
+.main-nav {
+  font-size: 15pt;
+  background-color: #4a628a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-div.logo{
-    padding-left: 20px;
+div.logo {
+  padding-left: 20px;
 }
 
-a.logo-name{
-    color: #fff;
-    text-decoration: none;
-    display: flex;
-    padding: 8px;
-    transition: background-color 0.3s;
+a.logo-name {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  padding: 8px;
+  transition: background-color 0.3s;
 }
 
-a.logo-name:hover{
-    background-color: #B9E5E8;
-    border-radius: 10px;
-    
+a.logo-name:hover {
+  background-color: #b9e5e8;
+  border-radius: 10px;
 }
 
-ul.menu{
-    gap: 15px;
-    list-style: none;
-    display: flex;
-    padding-right: 20px;
+ul.menu {
+  gap: 15px;
+  list-style: none;
+  display: flex;
+  padding-right: 20px;
 }
 
-ul.menu li a{
-    color: #fff;
-    text-decoration: none;
-    padding: 8px;
-    transition: background-color 0.3s;
+ul.menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px;
+  transition: background-color 0.3s;
 }
 
-ul.menu li a:hover{
-    background-color: #B9E5E8;
-    border-radius: 10px;
+ul.menu li a:hover {
+  background-color: #b9e5e8;
+  border-radius: 10px;
+}
+
+.hello-container {
+  background: powderblue;
 }
 
 /*ini design home*/
-div.hello{
-    height: 390px;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 200px 400px;
-    margin: 0 auto;
-    max-height: 54vw;
-    max-width: 700px;
+div.hello {
+  height: 390px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 200px 400px;
+  margin: 0 auto;
+  max-height: 54vw;
+  max-width: 700px;
 }
 
-h1.first-line{
-    display: block;
-    padding: 0;
-    margin: 0 auto;  
-    font-size: 170px;
-    color: #4A628A;
-    line-height: .7;
+h1.first-name {
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 170px;
+  color: #4a628a;
+  line-height: 0.7;
 }
 
-h1.box{
-    background-color: #4A628A;
-    color: #b3e5e5;
-    justify-content: center; 
-    padding-top: 12px;
-    font-size: 68px;
-    font-weight: bold;
-    margin: 0 auto;
-    line-height: 1.5;
+h1.last-name {
+  background-color: #4a628a;
+  color: #b3e5e5;
+  justify-content: center;
+  padding-top: 12px;
+  font-size: 68px;
+  font-weight: bold;
+  margin: 0 auto;
+  line-height: 1.5;
 }
 
 /* ini design bio */
-div.bio-container{
-    margin: 0;
-    padding: 100px 100px;
+div.bio-container {
+  margin: 0;
+  padding: 100px 100px;
 }
 
-td{
-    padding: 100px;
-    font-size: large;
-    line-height: 1.5;
+td {
+  padding: 100px;
+  font-size: large;
+  line-height: 1.5;
 }
 
-p.bio{
-    padding-bottom: 30px;
+p.bio {
+  padding-bottom: 30px;
 }
 
-/* ini design hobi */
-#hobby-yay{
-    background-color: #7AB2D3;
-    padding: 200px 350px;
-    line-height: 1.5;
+.contact {
+  background-color: #7ab2d3;
+  padding: 200px 350px;
+  line-height: 1.5;
 }
 
-.hobby{
-    text-align: center;
-    margin: 0;
-    font-size: 30pt;
-    font-weight: bold;
+.hobby {
+  text-align: center;
+  margin: 0;
+  font-size: 30pt;
+  font-weight: bold;
 }
 
-.hobby-exp{
-    text-align: center;
-    margin: 0;
+.hobby-exp {
+  text-align: center;
+  margin: 0;
 }
 
-ul.contact{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    text-decoration: none;
-    align-items: center;
-    gap: 10px;
+.social-media {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+  gap: 10px;
 }
 
 /* ini design footer */
-footer{
-    padding-left: 20px;
+.footer {
+  padding-left: 20px;
 }
-
-/* ini design about */
