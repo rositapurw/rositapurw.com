@@ -1,5 +1,4 @@
-![alt text](image.png)
-
+![Screenshot](image.png)
 
 # Hi, I'm Sita 👋 👩
 
