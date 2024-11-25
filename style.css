@@ -115,6 +115,10 @@ p.bio {
   gap: 1rem;
 }
 
+.contact-text {
+  text-align: center;
+}
+
 .social-media {
   display: flex;
   justify-content: center;
