@@ -57,7 +57,68 @@ ul.menu li a:hover {
   background: powderblue;
 }
 
-/*ini design home*/
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode .main-nav {
+  background-color: #1e1e1e;
+  border-bottom: 1px solid #333;
+}
+
+body.dark-mode .menu a {
+  color: #ffffff;
+}
+
+/* Theme toggle slider */
+.theme-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.theme-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 24px;
+  transition: background-color 0.3s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+input:checked + .slider {
+  background-color: #007bff;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* home*/
 div.hello {
   height: 390px;
   text-transform: uppercase;
@@ -106,20 +167,13 @@ p.bio {
 
 .contact {
   background-color: #7ab2d3;
-  padding: 200px 350px;
+  padding: 100px 350px;
   line-height: 1.5;
 }
 
-.hobby {
-  text-align: center;
-  margin: 0;
-  font-size: 30pt;
-  font-weight: bold;
-}
-
-.hobby-exp {
-  text-align: center;
-  margin: 0;
+.contact-container {
+  display: flex;
+  gap: 1rem;
 }
 
 .social-media {
@@ -128,7 +182,8 @@ p.bio {
   list-style: none;
   text-decoration: none;
   align-items: center;
-  gap: 10px;
+  gap: 50px;
+  margin-top: 50px;
 }
 
 /* ini design footer */
