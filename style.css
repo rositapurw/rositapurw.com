@@ -17,11 +17,11 @@ body {
   justify-content: space-between;
 }
 
-div.logo {
+.logo {
   padding-left: 20px;
 }
 
-a.logo-name {
+.logo-name {
   color: #fff;
   text-decoration: none;
   display: flex;
@@ -29,26 +29,26 @@ a.logo-name {
   transition: background-color 0.3s;
 }
 
-a.logo-name:hover {
+.logo-name:hover {
   background-color: #b9e5e8;
   border-radius: 10px;
 }
 
-ul.menu {
+.menu {
   gap: 15px;
   list-style: none;
   display: flex;
   padding-right: 20px;
 }
 
-ul.menu li a {
+.menu li a {
   color: #fff;
   text-decoration: none;
   padding: 8px;
   transition: background-color 0.3s;
 }
 
-ul.menu li a:hover {
+.menu li a:hover {
   background-color: #b9e5e8;
   border-radius: 10px;
 }
@@ -58,7 +58,7 @@ ul.menu li a:hover {
 }
 
 /* home*/
-div.hello {
+.hello {
   height: 390px;
   text-transform: uppercase;
   text-align: center;
@@ -68,7 +68,7 @@ div.hello {
   max-width: 700px;
 }
 
-h1.first-name {
+.first-name {
   display: block;
   padding: 0;
   margin: 0 auto;
@@ -77,7 +77,7 @@ h1.first-name {
   line-height: 0.7;
 }
 
-h1.last-name {
+.last-name {
   background-color: #4a628a;
   color: #b3e5e5;
   justify-content: center;
@@ -89,7 +89,7 @@ h1.last-name {
 }
 
 /* ini design bio */
-div.bio-container {
+.bio-container {
   margin: 0;
   padding: 100px 100px;
 }
@@ -100,7 +100,7 @@ td {
   line-height: 1.5;
 }
 
-p.bio {
+.bio {
   padding-bottom: 30px;
 }
 
